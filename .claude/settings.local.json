@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__stitch__get_project",
+      "mcp__stitch__list_screens",
+      "Bash(mkdir -p .stitch-tmp)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2E4MjlhY2MzY2Y5MTRmOTA5NGYzM2YyZTM1OTRhNTQ4EgsSBxDus9uXkQoYAZIBIwoKcHJvamVjdF9pZBIVQhMxMDI4NzgzNTUxMzIzMjY2MTM5&filename=&opi=89354086\" -o .stitch-tmp/about.html)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2Y3ZTEzYzFkODZiMTQ3YmY5ZGQyMmUzZTMzZDRkMjBmEgsSBxDus9uXkQoYAZIBIwoKcHJvamVjdF9pZBIVQhMxMDI4NzgzNTUxMzIzMjY2MTM5&filename=&opi=89354086\" -o .stitch-tmp/portfolio.html)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAxYzVlMjVlNDExODRjYTM5OGI0MzRiNDkxMTdjZDE5EgsSBxDus9uXkQoYAZIBIwoKcHJvamVjdF9pZBIVQhMxMDI4NzgzNTUxMzIzMjY2MTM5&filename=&opi=89354086\" -o .stitch-tmp/contact.html)",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida/AP1WRLvkeaXzVh9IzqfCbYAEPCpWE8GvmvsLKXYuwKB7BnwU9s8LovqsH6mOVmouHh7EVF0ccay3-ce5CHNdfDCMQn8Mkd7TcBKfa4ItKJw78G-UsyVSJljaBW4X6Dd3pWGOzjFfw1TeroU46tDb2-jdeCoycd5Y41e5WMK85WcUfd1uXRPkSKPrNgT-pWYLkOz4QKBirQ0T4Ir2BsUmdNA6rdawcU8gm6zI7a4IlMk5L7tSkp37jJivDNdwvDU\" -o about.png)",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida/AP1WRLtnLSyEIZ8FS-8Z7_CfrbaoLmTKagJA8G3SCI8OIoWNAxhHw5RmNrU0RuQbPUvisIIHVyZXjXKm6mWH-cSc5slQpdmMnURxV3rjmGz-7h9GNxw-7_gNtqNLTnMuJFWcIE7GmruD0Uxp2uI1u8zhxi5I2AkgHh7625KYq4gHMy6TPYqon3aj3IzzKGBHJJAYrEqJTjqbuxEAvTQhmvNcyNmwDLoeUPHDloYhSdrdFMEvO0RViGK1kwvNvdk\" -o portfolio.png)",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida/AP1WRLuSeI9W07QA5_-bvl7uzF5WrErL80mlamDqf_PERIkdHOfMwKPpEXWUJLVyLUy1GTnY2SZjZxO2z8RdDAr0dhbFfg4P_5KQfkhODL0KiO0oVtchRvzKYSzsYbRHDHBHnjpSqgMk6UDKFnMBoFuGbnXCyYXanOR3zV0OSGGfzNQWvckyDv5bNN_n-jemWW2YyBTm0tP6SyocxLtj5bQKrJjA0F_WyDLVXZow0J2zKXJpjNVNGi6gBRbotGs\" -o contact.png)",
+      "Bash(file *.png)",
+      "Bash(npm run *)",
+      "Bash(MSYS_NO_PATHCONV=1 curl -s -o /dev/null -w 'contact-hero status: %{http_code}\\\\n' 'http://localhost:3000/lark/contact-hero.png')",
+      "Bash(MSYS_NO_PATHCONV=1 curl -s -o /dev/null -w 'about-hero status:   %{http_code}\\\\n' 'http://localhost:3000/lark/about-hero.png')",
+      "Bash(npm install *)",
+      "Bash(node .stitch-tmp/shot.mjs)",
+      "Bash(powershell.exe -NoProfile -Command 'Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like '\\\\''*next-server*'\\\\'' -or $_.CommandLine -like '\\\\''*next*start*'\\\\'' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }')",
+      "Bash(cd /c/Users/princ/.claude/projects/c--Users-princ-repo-lark-web/memory)",
+      "Bash(ls MEMORY.md)"
+    ]
+  }
+}
